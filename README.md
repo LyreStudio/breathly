@@ -1,3 +1,5 @@
+> Lyre marketplace source fork. See [setup, original mobile releases and license notes](LYRE-MARKETPLACE.md).
+
 &nbsp;
 
 # Breathly <img src="./.github/icon-rounded.png" width="110" align="left">

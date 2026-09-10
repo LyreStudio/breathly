@@ -1,0 +1,9 @@
+{
+  "upstream": "mmazzarolo/breathly-app",
+  "commit": "4107588b8c8bca076cedf4638b5a2fe53945b80e",
+  "license": "MPL-2.0",
+  "reviewed": "2026-09-10",
+  "stars": 596,
+  "screenshotSource": ".github/iphone-1.png",
+  "nativeBuildVerifiedByLyre": false
+}
