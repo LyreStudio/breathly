@@ -16,6 +16,8 @@ Local qualification found that the upstream lock needed eight additional same-SD
 
 Typecheck, lint, formatting, all 83 tests, all 20 Expo health checks and local Android/iOS/web JavaScript exports pass. Windows checkout line endings and stale duplicate dependencies were corrected in the isolated build environment; earlier failed attempts remain in the Lyre release ledger. See [VALIDATION.md](VALIDATION.md) for scope and evidence identities.
 
+The fork's `.gitattributes` keeps canonical LF checkout bytes so the same formatter command works on Windows and Unix. It changes no application source content.
+
 This is a source update. Maestro is unavailable in the local environment, so its native flow remains pending. No APK/IPA, installed-device acceptance or store release is claimed; `nativeBuildVerifiedByLyre` remains false.
 
 ## Use the released app

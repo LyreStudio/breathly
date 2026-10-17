@@ -11,6 +11,10 @@
   "sourceUpdateRange": "4107588b8c8bca076cedf4638b5a2fe53945b80e..3b86b698c59cf99e7aa834ddfde117b29c0c442d",
   "lyreAdaptations": [
     {
+      "files": [".gitattributes"],
+      "reason": "Use canonical LF checkout bytes for the source-owned formatter on Windows and Unix without reformatting application source."
+    },
+    {
       "files": ["package.json", "bun.lock"],
       "reason": "Apply the eight current Expo 57 patch recommendations through the source-owned Expo installer; retain upstream React Native 0.86.3 and exact Bun lock closure."
     }
