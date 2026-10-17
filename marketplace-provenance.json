@@ -1,9 +1,19 @@
 {
   "upstream": "mmazzarolo/breathly-app",
-  "commit": "4107588b8c8bca076cedf4638b5a2fe53945b80e",
+  "commit": "3b86b698c59cf99e7aa834ddfde117b29c0c442d",
   "license": "MPL-2.0",
-  "reviewed": "2026-09-10",
+  "reviewed": "2026-10-16",
   "stars": 596,
+  "starsObservedAt": "2026-09-10",
   "screenshotSource": ".github/iphone-1.png",
-  "nativeBuildVerifiedByLyre": false
+  "screenshotSourceCommit": "4107588b8c8bca076cedf4638b5a2fe53945b80e",
+  "nativeBuildVerifiedByLyre": false,
+  "sourceUpdateRange": "4107588b8c8bca076cedf4638b5a2fe53945b80e..3b86b698c59cf99e7aa834ddfde117b29c0c442d",
+  "lyreAdaptations": [
+    {
+      "files": ["package.json", "bun.lock"],
+      "reason": "Apply the eight current Expo 57 patch recommendations through the source-owned Expo installer; retain upstream React Native 0.86.3 and exact Bun lock closure."
+    }
+  ],
+  "sourceQualification": "Typecheck, lint, format, 83 tests, 20 Expo checks and local Android/iOS/web JavaScript exports passed. Native Maestro/device/store acceptance remains pending; see VALIDATION.md."
 }

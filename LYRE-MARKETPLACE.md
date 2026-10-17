@@ -2,11 +2,21 @@
 
 This is a public source fork of [mmazzarolo/breathly-app](https://github.com/mmazzarolo/breathly-app), curated for the Lyre marketplace. Original authorship, branding and license are retained; it is not an original Lyre app or a new Lyre-published store binary.
 
-Upstream source checkpoint: `4107588b8c8bca076cedf4638b5a2fe53945b80e`. License: **MPL-2.0**. GitHub stars when reviewed September 10, 2026: **596**.
+Upstream source checkpoint: `3b86b698c59cf99e7aa834ddfde117b29c0c442d`, reviewed October 16, 2026. License: **MPL-2.0**. The historical September 10 popularity observation is not a current availability or qualification claim.
 
 ![Upstream Breathly mobile screenshot](screenshots/mobile.png)
 
-The screenshot is copied unchanged from upstream `.github/iphone-1.png` at that checkpoint. It is upstream presentation artwork, not evidence of a new Lyre device test.
+The screenshot is copied unchanged from upstream `.github/iphone-1.png` at the earlier `4107588b8c8bca076cedf4638b5a2fe53945b80e` checkpoint. It is upstream presentation artwork, not evidence of a new Lyre device test.
+
+## October 16 source update
+
+The seven-commit upstream range `4107588b..3b86b698` fixes the Android two-digit exercise time limit, adds the Android themed icon and updates Expo 57 patches. The upstream Android regression and Maestro flow are retained. Lyre keeps the upstream design, names and MPL-2.0 source terms.
+
+Local qualification found that the upstream lock needed eight additional same-SDK patch recommendations. The source-owned `expo install --fix --bun` updates only those Expo 57 dependencies and their required lock closure, including Expo 57.0.30 and React Native 0.86.3. These package/lock adaptations are separate from the recorded upstream commit. No service, store or author account is activated.
+
+Typecheck, lint, formatting, all 83 tests, all 20 Expo health checks and local Android/iOS/web JavaScript exports pass. Windows checkout line endings and stale duplicate dependencies were corrected in the isolated build environment; earlier failed attempts remain in the Lyre release ledger. See [VALIDATION.md](VALIDATION.md) for scope and evidence identities.
+
+This is a source update. Maestro is unavailable in the local environment, so its native flow remains pending. No APK/IPA, installed-device acceptance or store release is claimed; `nativeBuildVerifiedByLyre` remains false.
 
 ## Use the released app
 
